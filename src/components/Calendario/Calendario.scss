@@ -1,4 +1,3 @@
-/* Força a fonte em todos os elementos do Kalend */
 .Kalend {
   font-family: 'Roboto', sans-serif !important;
 }
@@ -61,7 +60,6 @@
 }
 
 
-/* Corrige o layout quebrado no mobile */
 .Kalend__CalendarHeader__container {
   display: flex !important;
   flex-direction: column !important;
@@ -69,7 +67,6 @@
   justify-content: center !important;
 }
 
-/* Container de cada dia da semana (Seg, Ter, ...) */
 .Kalend__CalendarHeaderWeekDays__col {
   min-width: 40px !important;
   padding: 0 4px !important;
@@ -82,7 +79,6 @@
   visibility: visible !important;
 }
 
-/* Texto dos dias da semana */
 .Kalend__CalendarHeaderWeekDays__col .Kalend__text {
   color: white !important;
   font-size: 13px !important;
@@ -97,7 +93,6 @@
   display: block !important;
 }
 
-/* Corrige os números dos dias abaixo ("18", "19", etc.) */
 .Kalend__CalendarHeaderDates__col .Kalend__text {
   font-size: 15px !important;
   font-weight: 600 !important;
