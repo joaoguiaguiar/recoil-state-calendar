@@ -46,7 +46,7 @@ Outro objetivo importante deste projeto foi a utilização do **Tailwind CSS**, 
 
 ## 🌐 Link do Projeto
 
-> _Adicione aqui o link de deploy (ex: Vercel, Netlify)_
+https://recoil-calendar-state.vercel.app/
 
 
 
