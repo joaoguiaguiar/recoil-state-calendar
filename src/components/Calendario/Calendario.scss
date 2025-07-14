@@ -1,0 +1,107 @@
+/* Força a fonte em todos os elementos do Kalend */
+.Kalend {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.Kalend__ButtonIcon__svg-normal{
+  fill: white !important;
+}
+
+.Kalend__HeaderCalendarTitle-mobile{
+  color: white !important;
+}
+
+
+.Kalend__HeaderCalendarTitle__container .Kalend__HeaderCalendarTitle {
+  color: white !important;
+}
+
+.Kalend__CalendarHeaderWeekDays__col .Kalend__text {
+  font-size: 1.2rem;
+  color: white;
+
+}
+
+.Kalend__CalendarHeaderDates__circle .Kalend__text {
+  color: white !important;
+  font-size: 1.2rem;
+}
+
+.Kalend__CalendarHeaderDates__circle {
+  &:hover .Kalend__text {
+    color: #000 !important;
+  }
+}
+
+.Kalend__button .Kalend__text {
+  color: white;
+}
+
+
+.Kalend__ButtonBase-border {
+  color: white !important;
+
+  &:hover {
+    color: #000 !important;
+  }
+}
+
+
+.Kalend__ButtonBase {
+  &:hover .Kalend__text {
+    color: #000 !important;
+    font-size: 1.2rem;
+  }
+
+}
+
+
+.Kalend__ButtonIcon__svg-normal path {
+  fill: white !important;
+}
+
+
+/* Corrige o layout quebrado no mobile */
+.Kalend__CalendarHeader__container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Container de cada dia da semana (Seg, Ter, ...) */
+.Kalend__CalendarHeaderWeekDays__col {
+  min-width: 40px !important;
+  padding: 0 4px !important;
+  text-align: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Texto dos dias da semana */
+.Kalend__CalendarHeaderWeekDays__col .Kalend__text {
+  color: white !important;
+  font-size: 13px !important;
+  line-height: 1.2 !important;
+  font-weight: 500 !important;
+  font-family: 'Red Hat Display', sans-serif !important;
+  white-space: nowrap !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+/* Corrige os números dos dias abaixo ("18", "19", etc.) */
+.Kalend__CalendarHeaderDates__col .Kalend__text {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  color: white !important;
+  font-family: 'Red Hat Display', sans-serif !important;
+  text-align: center !important;
+}
